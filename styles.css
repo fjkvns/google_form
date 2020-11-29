@@ -1,0 +1,113 @@
+body {
+    background: #f2dbff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > div {
+    background: #fff;
+    padding: 4px;
+    margin: 2px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 800px;
+    border: 0.5px solid rgb(199, 199, 199);
+    line-height: 50px;
+    padding-left: 16px;
+}
+
+
+.button {
+    background: #6900c4;
+    color: white;
+    border-radius: 6px;
+    height: 40px;
+    width: 120px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: .2s;
+    transform: translateY(1px);
+}
+.question5 > form > label
+ {
+    font-size: 12px;
+}
+
+/* Pseudo */
+
+.username::after {
+    content: "Type in your username";
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    color: rgb(184, 184, 184);
+    padding: 0;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.question5 > form > label:hover::after {
+    opacity: 1;
+    font-size: 15px;
+}
+.pass::after {
+    content: "Type in your password";
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    color: rgb(184, 184, 184);
+    padding: 0;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.favnumb::after {
+    content: "Type in your favorite number";
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    color: rgb(184, 184, 184);
+    padding: 0;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.favmonth::after {
+    content: "Type in your favorite month";
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    color: rgb(184, 184, 184);
+    padding: 0;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.favgenre::after {
+    content: "Type in your favorite music genre";
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    color: rgb(184, 184, 184);
+    padding: 0;
+    line-height: 25px;
+    border-radius: 5px;
+}
